@@ -1,0 +1,711 @@
+header{
+    display: flex;
+    justify-content: center;
+    background-image: url(../Images/photodune-3598715-woman-in-red-m.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 98vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.menu__box a{
+    text-decoration: none;
+    color: grey;
+}
+.menu__box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 8%;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 6vh;
+    align-items: center;
+}
+#menu__toggle{
+    opacity: 0;
+    position: absolute;
+}
+.black{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.533);
+}
+.menu__box img{
+    padding-top: 10% ;
+}
+nav{
+    width: 100%;
+}
+.headerInfo{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 8%;
+    color: white;
+}
+h1>b, h2>b, b{
+    color: rgba(255, 0, 0, 0.8);
+}
+.buttons{
+    display: flex;
+    margin-top: 3%;
+}
+h1{
+    margin-bottom: 3%;
+    font-size: 4vh;
+}
+.headerInfo>p{
+    font-size: 2.5vh;
+    text-align: center;
+}
+#blackbutton{
+    background-color: black;
+    margin-left: 50px;
+}
+.buttons button{
+    width: 150px;
+    height: 150%;
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+    font-size: 2vh;
+    outline: none;
+    border: none;
+}
+.about{
+    display: flex;
+    justify-content: center;
+}
+.textwithh2>h2{
+    width: 200px;
+    margin: 25px;
+}
+.textwithh2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.textwithimage>p{
+    width: 500px ;
+}
+.textwithh2>p{
+    width: 1000px;
+    text-align: center;
+}
+.textintextwithimage{
+    width: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.265);
+    margin: 2px;
+}
+.imageplustext{
+    display: flex;
+    margin-top: 50px;
+}
+.thatimagethaislyingneartextwihtimage{
+    margin-top: 25px;
+}
+.g6an{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.g6an>img{
+    position: relative;
+    width: 25px;
+    right: 270px;
+    bottom: 5px;
+}
+.g6an>hr{
+    margin: 5px;
+    width: 500px;
+    height: 1px;
+}
+.g6anes{
+    display: flex;
+    justify-content: space-between;
+}
+.g7anes{
+    width: 200px;
+    text-align: center;
+}
+.portfolio{
+    background-color: rgb(58, 58, 58);
+    color: white;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.portfolionavigation{
+    width: 50%;
+}
+.navigation{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+.navigation a{
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+}
+.navigation a:hover, #red{
+    color: red;
+    transition: 0.2s;
+}
+
+
+.gridimages{
+    display: grid;
+    grid-template-columns: repeat(10,10%);
+    grid-template-rows: 50vh 50vh;
+    grid-template-areas:"a1 a1 a1 a2 a2 a3 a3 a3 a4 a4"
+                        "a5 a5 a5 a6 a6 a7 a7 a7 a8 a8";
+}
+.grey{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(58, 58, 58) ;
+}
+.a1{
+    grid-area: a1;
+    background-image: url(../Images/Layer\ 7.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+.a2{
+    grid-area: a2;
+    background-image: url(../Images/Layer\ 15.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+.a3{
+    grid-area: a3;
+    background-image: url(../Images/Layer\ 9.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+.a4{
+    grid-area: a4;
+    background-image: url(../Images/Layer\ 13.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+.a5{
+    grid-area: a5;
+    background-image: url(../Images/Layer\ 17.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+.a6{
+    grid-area: a6;
+    background-image: url(../Images/Layer\ 16.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+.a7{
+    grid-area: a7;
+    background-image: url(../Images/Layer\ 11.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+.a8{
+    grid-area: a8;
+    background-image: url(../Images/Layer\ 15.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+.red{
+    width: 100%;
+    background-color: red;
+    height: 1px;
+}
+.gigGigivich{
+    border: 1px solid rgba(75, 75, 75, 0.492);
+    width: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 5px;
+}
+.gigGigivich>img{
+    width: 40px;
+}
+.gigGigivich>p{
+    font-size: 25px;
+    vertical-align: baseline;
+}
+.serGEY{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outclints{
+    background-image: url(../Images/photodune-3414776-business-group-m.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+#h3{
+    color: white;
+}
+.bundle{
+    display: flex;
+    justify-content: space-around;
+}
+.happy>p{
+    width: 500px;
+}
+.happy{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.happy>img{
+    width: 50px;
+}
+.h3{
+    color: red;
+}
+.g3anes{
+    display: flex;
+    width: 60px ;
+}
+.g3an{
+    width: 15px;
+    height: 15px;
+    background-color: white;
+}
+#r1ed{
+    background-color: red;
+    margin-inline: 5px ;
+}
+.happy>*{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.happy{
+    text-align: center;
+}
+.amr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.img4sanya{
+    margin-top: 25px;
+    display: grid; 
+    grid-template-columns: 37% 15% 37%;
+    grid-template-rows: 15vh 15vh;
+    grid-template-areas: "a1 - a2" "a3 - a4";
+}
+@media (max-width: 320px)
+{
+    header{
+        background-size: 625%;
+        background-position: center;
+    }
+    #blackbutton{
+        margin-left: 15px;
+    }
+    .menu__box img{
+        width: 50px;
+        padding: 0;
+    }
+    .menu__box{
+        height: 8vh;
+        flex-wrap: wrap;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .buttons>form{
+        height: 50px;
+    }
+    .buttons button{
+        height: 50px;
+    }
+    #blackbutton{
+        margin: 0px;
+        margin-top: 15px;
+    }
+    
+    .menu__box img{
+        width: 200px;
+    }
+    .images{
+        width: 300px;
+    }
+    #menu__toggle {
+        opacity: 0;
+      }
+      #menu__toggle:checked + .menu__btn > span {
+        transform: rotate(45deg);
+      }
+      #menu__toggle:checked + .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0deg);
+      }
+      #menu__toggle:checked + .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+      }
+      #menu__toggle:checked ~ .menu__box {
+        left: 0 !important;
+      }
+      .menu__btn {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 1;
+      }
+      .menu__btn > span,
+      .menu__btn > span::before,
+      .menu__btn > span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #616161;
+        transition-duration: .25s;
+      }
+      .menu__btn > span::before {
+        content: '';
+        top: -8px;
+      }
+      .menu__btn > span::after {
+        content: '';
+        top: 8px;
+      }
+      .menu__box {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 300px;
+        height: 100%;
+        margin: 0;
+        padding: 80px 0;
+        list-style: none;
+        background-color: #ECEFF1;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+        transition-duration: .25s;
+      }
+      .menu__item {
+        display: block;
+        padding: 12px 24px;
+        color: #333;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        transition-duration: .25s;
+      }
+      .menu__item:hover {
+        background-color: #CFD8DC;
+      }
+      .imageplustext {
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .imageplustext {
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .textwithh2>p{
+        width: 300px;
+        text-align: center;
+    }
+    p{
+        width: 290px;
+        font-size: 15px;
+    }
+    h2{
+        font-size: 25px;
+        width: 300px;
+    }
+    .g6an>hr{
+        width: 300px;
+    }
+    .g6anes{
+        display: flex;
+        flex-direction: column
+    }
+    .g7anes{
+        width: 300px;
+    }
+    .g7anes>p, .g7anes>h2{
+        width: 300px;
+    }
+    .textwithimage>p{
+        width: 300px;
+    }
+    .textwithh2{
+        margin-left: 4% ;
+    }
+    .textwithimage{
+        margin-left: 4%;
+    }
+    main{
+
+        text-align: center;
+    }
+    /* main p, main h2{
+        width: 300px;
+    } */
+    .textintextwithimage{
+        margin: 0;
+    }
+    .about{
+        width: 300px;
+    }
+    .textwithimage{
+        display: flex;
+        flex-direction: column;
+    }
+    .black{
+        width: 320px;
+    }
+    .imageplustext{
+        display: flex;
+        align-content: center;
+    }
+    .textmainInfo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    }
+    .textintextwithimage>p, .textintextwithimage>h2{
+        margin: 0;
+        align-self: center;
+    }
+    .textintextwithimage{
+        display: flex;
+        flex-direction: column;
+        /* margin-left: 4%; */
+    }
+    .textintextwithimage>p{
+        margin: 0;
+        width: 300px;
+    }
+    *{
+        margin: 0;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        width: 320px;
+    }
+    .textwithh2>p{
+        width: 300px;
+    }
+    .textintextwithimage{
+        width: 300px;
+        border: none;
+        margin-top: 20px;
+    }
+    .g7anes>img{
+        width: 88px;
+    }
+    .g6anes{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    /* .g6an>img{
+        position: relative;
+        width: 25px;
+        right: 95px;
+        bottom: 5px;
+    } */
+    .thatimagethaislyingneartextwihtimage{
+        width: 75%;
+    }
+    .thatimagethaislyingneartextwihtimage>img{
+        width: 100%;
+    }
+    .gridimages{
+        margin-top: 5px;
+        display: grid;
+        grid-template-columns: 100% ;
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-areas: "a1" "a2"
+        "a3" "a4" ;
+        margin-bottom: 25px;
+    }
+    .firstimages{
+        display: flex;
+        flex-direction: column;
+    }
+    .firstimages{
+        margin: 0;
+    }
+    .first, .second{
+        width: 320px;
+    }
+}
+@media (max-width: 768px) and (min-width: 321px){
+    #menu__toggle{
+      opacity: 0;
+    }
+
+    #menu__toggle:checked + .menu__btn > span {
+      transform: rotate(45deg);
+    }
+    #menu__toggle:checked + .menu__btn > span::before {
+      top: 0;
+      transform: rotate(0deg);
+    }
+    #menu__toggle:checked + .menu__btn > span::after {
+      top: 0;
+      transform: rotate(90deg);
+    }
+    #menu__toggle:checked ~ .menu__box {
+      left: 0 !important;
+    }
+    .menu__btn {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      width: 26px;
+      height: 26px;
+      cursor: pointer;
+      z-index: 1;
+    }
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: #616161;
+      transition-duration: .25s;
+    }
+    .menu__btn > span::before {
+      content: '';
+      top: -8px;
+    }
+    .menu__btn > span::after {
+      content: '';
+      top: 8px;
+    }
+    .menu__box {
+      display: block;
+      position: fixed;
+      top: 0;
+      left: -100%;
+      width: 300px;
+      height: 100%;
+      margin: 0;
+      padding: 80px 0;
+      list-style: none;
+      background-color: #ECEFF1;
+      box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+      transition-duration: .25s;
+    }
+    .menu__item {
+      display: block;
+      padding: 12px 24px;
+      color: #333;
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      text-decoration: none;
+      transition-duration: .25s;
+    }
+    .menu__item:hover {
+      background-color: #CFD8DC;
+    }
+    header{
+            background-size: 250%;
+            background-position: center;
+    } 
+    .imageplustext {
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .imageplustext {
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .textwithh2>p{
+        width: 750px;
+        text-align: center;
+    }
+    .g7anes{
+        width: 150px;
+    }
+    .g6an>img{
+        position: relative;
+        width: 25px;
+        right: 261px;
+        bottom: 5px;
+    }
+    .imageplustext{
+        display: flex;
+        flex-direction: column;
+    }
+    .textmainInfo{
+        width: 768px;
+        display: flex;
+        flex-direction: column;
+    }
+    .textintextwithimage{
+        margin-top: 20px;
+    }
+    .textwithh2>p{
+        width: 645px;
+    }
+    .gridimages{
+        margin-top: 5px;
+        display: grid;
+        grid-template-columns: 100% ;
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-areas: "a1" "a2"
+        "a3" "a4" ;
+        margin-bottom: 25px;
+    }
+    .firstimages{
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .firstimages{
+        margin: 0;
+    }
+    .first, .second{
+        width: 384px;
+    }
+}
