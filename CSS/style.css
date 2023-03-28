@@ -46,7 +46,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 8%;
+    padding: 0 10%;
     color: white;
 }
 h1>b, h2>b, b{
@@ -55,6 +55,11 @@ h1>b, h2>b, b{
 .buttons{
     display: flex;
     margin-top: 3%;
+    width: 25%;
+}
+.buttons>form{
+    height: 150%;
+    width: 50%;
 }
 h1{
     margin-bottom: 3%;
@@ -64,13 +69,15 @@ h1{
     font-size: 2.5vh;
     text-align: center;
 }
+#rightform{
+    margin-left: 30%;
+}
 #blackbutton{
     background-color: black;
-    margin-left: 50px;
 }
 .buttons button{
-    width: 150px;
-    height: 150%;
+    width: 100%;
+    height: 100%;
     background-color: rgba(255, 0, 0, 0.8);
     color: white;
     font-size: 2vh;
@@ -82,8 +89,9 @@ h1{
     justify-content: center;
 }
 .textwithh2>h2{
-    width: 200px;
-    margin: 25px;
+    width: 50%;
+    text-align: center;
+    margin: 5%;
 }
 .textwithh2 {
     display: flex;
@@ -93,53 +101,61 @@ h1{
     flex-wrap: nowrap;
     flex-direction: column;
 }
+.textwithimage{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
 .textwithimage>p{
-    width: 500px ;
+    margin: 1%;
+    width: 100%;
 }
 .textwithh2>p{
-    width: 1000px;
+    width: 100%;
     text-align: center;
 }
 .textintextwithimage{
-    width: 500px;
+    width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.265);
-    margin: 2px;
+    margin: 1%;
 }
 .imageplustext{
     display: flex;
-    margin-top: 50px;
+    justify-content: space-around;
+    margin-top: 2%;
 }
 .thatimagethaislyingneartextwihtimage{
-    margin-top: 25px;
+    margin-top:0.9%;
 }
 .g6an{
     display: flex;
     justify-content: center;
-    margin: 50px;
+    margin: 2%;
 }
 .g6an>img{
     position: relative;
-    width: 25px;
-    right: 270px;
-    bottom: 5px;
+    width: 1%;
+    right: 13%;
+    bottom: 50%;
 }
 .g6an>hr{
-    margin: 5px;
-    width: 500px;
+    margin: 1px;
+    width: 25%;
     height: 1px;
 }
 .g6anes{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-inline: 4% ;
 }
 .g7anes{
-    width: 200px;
+    width: 15%;
     text-align: center;
 }
 .portfolio{
     background-color: rgb(58, 58, 58);
     color: white;
-    padding-top: 100px;
+    padding-top: 3%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -149,7 +165,8 @@ h1{
     width: 50%;
 }
 .navigation{
-    margin-top: 15px;
+    margin-top: 3%;
+    margin-bottom: 2%;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -174,7 +191,7 @@ h1{
                         "a5 a5 a5 a6 a6 a7 a7 a7 a8 a8";
 }
 .grey{
-    height: 50px;
+    height: 6vh;
     width: 100%;
     background-color: rgb(58, 58, 58) ;
 }
@@ -210,7 +227,7 @@ h1{
 }
 .a6{
     grid-area: a6;
-    background-image: url(../Images/Layer\ 16.png);
+    background-image: url(../Images/Layer\ 13.png);
     background-size: 110%;
     background-repeat: no-repeat;
 }
@@ -229,22 +246,29 @@ h1{
 .red{
     width: 100%;
     background-color: red;
-    height: 1px;
+    height: 0.2vh;
+}
+.table{
+    display: flex;
+    flex-direction: column;
 }
 .gigGigivich{
     border: 1px solid rgba(75, 75, 75, 0.492);
-    width: 400px;
+    width: 101%;
+    height: 4vh;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    margin: 5px;
+    margin: 3%;
+    align-items: center;
 }
 .gigGigivich>img{
-    width: 40px;
+    width: 12%;
+    height: 4vh;
 }
 .gigGigivich>p{
     font-size: 25px;
-    vertical-align: baseline;
+    vertical-align: bottom;
 }
 .serGEY{
     display: flex;
@@ -257,45 +281,53 @@ h1{
     background-size: 100%;
     background-repeat: no-repeat;
     color: white;
+    height: 70vh;
+}
+.blackx2{
+    background-color: rgba(0, 0, 0, 0.900);
+    height: 70vh;
 }
 #h3{
     color: white;
 }
 .bundle{
     display: flex;
+    text-align: center;
+    align-items: center;
     justify-content: space-around;
 }
 .happy>p{
-    width: 500px;
+    width: 100%;
 }
 .happy{
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
 }
 .happy>img{
-    width: 50px;
+    width: 15%;
 }
 .h3{
     color: red;
 }
 .g3anes{
     display: flex;
-    width: 60px ;
+    width: 12%;
 }
 .g3an{
-    width: 15px;
-    height: 15px;
+    width: 35%;
+    height: 1.7vh;
     background-color: white;
 }
 #r1ed{
     background-color: red;
-    margin-inline: 5px ;
+    margin-inline: 7% ;
 }
 .happy>*{
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 .happy{
     text-align: center;
@@ -307,277 +339,48 @@ h1{
     align-content: center;
     flex-direction: column;
     flex-wrap: nowrap;
+    width: 50%;
 }
 .img4sanya{
-    margin-top: 25px;
-    display: grid; 
-    grid-template-columns: 37% 15% 37%;
-    grid-template-rows: 15vh 15vh;
-    grid-template-areas: "a1 - a2" "a3 - a4";
+    width: 30%;
+    height: 35vh;
+    margin-top: 4%;
 }
-@media (max-width: 320px)
-{
-    header{
-        background-size: 625%;
-        background-position: center;
-    }
-    #blackbutton{
-        margin-left: 15px;
-    }
-    .menu__box img{
-        width: 50px;
-        padding: 0;
-    }
-    .menu__box{
-        height: 8vh;
-        flex-wrap: wrap;
-    }
-    .buttons{
-        display: flex;
-        flex-direction: column;
-    }
-    .buttons>form{
-        height: 50px;
-    }
-    .buttons button{
-        height: 50px;
-    }
-    #blackbutton{
-        margin: 0px;
-        margin-top: 15px;
-    }
-    
-    .menu__box img{
-        width: 200px;
-    }
-    .images{
-        width: 300px;
-    }
-    #menu__toggle {
-        opacity: 0;
-      }
-      #menu__toggle:checked + .menu__btn > span {
-        transform: rotate(45deg);
-      }
-      #menu__toggle:checked + .menu__btn > span::before {
-        top: 0;
-        transform: rotate(0deg);
-      }
-      #menu__toggle:checked + .menu__btn > span::after {
-        top: 0;
-        transform: rotate(90deg);
-      }
-      #menu__toggle:checked ~ .menu__box {
-        left: 0 !important;
-      }
-      .menu__btn {
-        position: fixed;
-        top: 20px;
-        left: 20px;
-        width: 26px;
-        height: 26px;
-        cursor: pointer;
-        z-index: 1;
-      }
-      .menu__btn > span,
-      .menu__btn > span::before,
-      .menu__btn > span::after {
-        display: block;
-        position: absolute;
-        width: 100%;
-        height: 2px;
-        background-color: #616161;
-        transition-duration: .25s;
-      }
-      .menu__btn > span::before {
-        content: '';
-        top: -8px;
-      }
-      .menu__btn > span::after {
-        content: '';
-        top: 8px;
-      }
-      .menu__box {
-        display: block;
-        position: fixed;
-        top: 0;
-        left: -100%;
-        width: 300px;
-        height: 100%;
-        margin: 0;
-        padding: 80px 0;
-        list-style: none;
-        background-color: #ECEFF1;
-        box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
-        transition-duration: .25s;
-      }
-      .menu__item {
-        display: block;
-        padding: 12px 24px;
-        color: #333;
-        font-family: 'Roboto', sans-serif;
-        font-size: 20px;
-        font-weight: 600;
-        text-decoration: none;
-        transition-duration: .25s;
-      }
-      .menu__item:hover {
-        background-color: #CFD8DC;
-      }
-      .imageplustext {
-        display: flex;
-        margin-top: 50px;
-        flex-direction: column;
-    }
-    .imageplustext {
-        display: flex;
-        margin-top: 50px;
-        flex-direction: column;
-        align-items: center;
-    }
-    .textwithh2>p{
-        width: 300px;
-        text-align: center;
-    }
-    p{
-        width: 290px;
-        font-size: 15px;
-    }
-    h2{
-        font-size: 25px;
-        width: 300px;
-    }
-    .g6an>hr{
-        width: 300px;
-    }
-    .g6anes{
-        display: flex;
-        flex-direction: column
-    }
-    .g7anes{
-        width: 300px;
-    }
-    .g7anes>p, .g7anes>h2{
-        width: 300px;
-    }
-    .textwithimage>p{
-        width: 300px;
-    }
-    .textwithh2{
-        margin-left: 4% ;
-    }
-    .textwithimage{
-        margin-left: 4%;
-    }
-    main{
-
-        text-align: center;
-    }
-    /* main p, main h2{
-        width: 300px;
-    } */
-    .textintextwithimage{
-        margin: 0;
-    }
-    .about{
-        width: 300px;
-    }
-    .textwithimage{
-        display: flex;
-        flex-direction: column;
-    }
+@media(max-width: 1440px){
     .black{
-        width: 320px;
-    }
-    .imageplustext{
-        display: flex;
-        align-content: center;
-    }
-    .textmainInfo{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 300px;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: nowrap;
-    }
-    .textintextwithimage>p, .textintextwithimage>h2{
-        margin: 0;
-        align-self: center;
-    }
-    .textintextwithimage{
-        display: flex;
-        flex-direction: column;
-        /* margin-left: 4%; */
-    }
-    .textintextwithimage>p{
-        margin: 0;
-        width: 300px;
-    }
-    *{
-        margin: 0;
-        text-align: center;
-        align-content: center;
-        justify-content: center;
-        width: 320px;
-    }
-    .textwithh2>p{
-        width: 300px;
-    }
-    .textintextwithimage{
-        width: 300px;
-        border: none;
-        margin-top: 20px;
-    }
-    .g7anes>img{
-        width: 88px;
-    }
-    .g6anes{
-        width: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-    }
-    /* .g6an>img{
-        position: relative;
-        width: 25px;
-        right: 95px;
-        bottom: 5px;
-    } */
-    .thatimagethaislyingneartextwihtimage{
-        width: 75%;
-    }
-    .thatimagethaislyingneartextwihtimage>img{
-        width: 100%;
+        height: 85vh;
     }
     .gridimages{
-        margin-top: 5px;
         display: grid;
-        grid-template-columns: 100% ;
-        grid-template-rows: 25% 25% 25% 25%;
-        grid-template-areas: "a1" "a2"
-        "a3" "a4" ;
-        margin-bottom: 25px;
+        grid-template-columns: repeat(10,10%);
+        grid-template-rows: 39vh 39vh;
+        grid-template-areas:"a1 a1 a1 a2 a2 a3 a3 a3 a4 a4"
+                            "a5 a5 a5 a6 a6 a7 a7 a7 a8 a8";
     }
-    .firstimages{
-        display: flex;
-        flex-direction: column;
+    .a1, .a2, .a3, .a4, .a5, .a6, .a7, .a8{
+        background-size: 100%;
     }
-    .firstimages{
-        margin: 0;
+    .image{
+        width: 40%;
     }
-    .first, .second{
-        width: 320px;
+    .image>img{
+        width: 100%;
+    }
+    .amr{
+        width: 50%;
+    }
+    .img4sanya{
+        width: 50%;
+        display: grid;
+        grid-template-columns: repeat(2, 40%);
+        grid-template-rows: repeat(2, 15vh);
+        grid-template-areas: "a1 a2" "a3 a4";
     }
 }
-@media (max-width: 768px) and (min-width: 321px){
-    #menu__toggle{
+@media(max-width: 768px){
+    #menu__toggle {
       opacity: 0;
     }
-
     #menu__toggle:checked + .menu__btn > span {
       transform: rotate(45deg);
     }
@@ -647,63 +450,116 @@ h1{
       background-color: #CFD8DC;
     }
     header{
-            background-size: 250%;
-            background-position: center;
-    } 
-    .imageplustext {
-        display: flex;
-        margin-top: 50px;
-        flex-direction: column;
+        height: 45vh;
     }
-    .imageplustext {
-        display: flex;
-        margin-top: 50px;
-        flex-direction: column;
+    .headerInfo{
+        height: 45vh;
+    }
+    .black{
+        height: 45vh;
+    }
+    .buttons{
+        width: 45%;
+    }
+    #rightform{
+        margin-left: 10%;
+    }
+    .textwithimage{
+        width: 100%;
         align-items: center;
     }
-    .textwithh2>p{
-        width: 750px;
-        text-align: center;
-    }
-    .g7anes{
-        width: 150px;
-    }
-    .g6an>img{
-        position: relative;
-        width: 25px;
-        right: 261px;
-        bottom: 5px;
+    .textintextwithimage{
+        width: 75%;
     }
     .imageplustext{
-        display: flex;
+        width:100%;
         flex-direction: column;
-    }
-    .textmainInfo{
-        width: 768px;
-        display: flex;
-        flex-direction: column;
-    }
-    .textintextwithimage{
-        margin-top: 20px;
-    }
-    .textwithh2>p{
-        width: 645px;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
     }
     .gridimages{
-        margin-top: 5px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(4, 39vh);
+        grid-template-areas: "a1 a2"
+                             "a3 a4"
+                             "a5 a6"
+                             "a7 a8";
+    }
+    .a1, .a2, .a3, .a4, .a5, .a6, .a7, .a8{
+        background-size: 100%; 
+    }
+    .bundle{
+        flex-direction: column;
+    }
+    .outclints{
+        background-size: 235%;
+        background-position: center;
+    }
+    .img4sanya{
         display: grid;
-        grid-template-columns: 100% ;
-        grid-template-rows: 25% 25% 25% 25%;
-        grid-template-areas: "a1" "a2"
-        "a3" "a4" ;
-        margin-bottom: 25px;
+        width: 70%;
+        grid-template-columns: 50%  50%;
+        grid-template-rows: 15vh 15vh;
+        grid-template-areas: "a1  a2"
+                             "a3  a4";
     }
-    .firstimages{
+    .amr{
+        width: 80%;
+    }
+    .happy{
+        width: 100%;
+    }
+    .happy>p{
+        width: 100%;
+    }
+    .outclints, .blackx2{
+        height: 100vh;
+    }
+    .image{
+        width: 70%;
+    }
+    .image>img{
+        width: 100%;
+    }
+    .serGEY{
         display: flex;
-        /* flex-direction: column; */
+        flex-direction: column;
     }
-    .firstimages{
+}
+@media (max-width: 425px){
+    header{
+        background-size: 179%;
+        background-position: center;
+    }
+    .buttons{
+        flex-direction: column;
+    }
+
+    #rightform{
         margin: 0;
+    }
+    .g7anes{
+        width: 40%;
+    }
+    .g6anes{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .thatimagethaislyingneartextwihtimage{
+        width: 100%;
+    }
+    .thatimagethaislyingneartextwihtimage>img{
+        width: 100%;
+    }
+    .outclints{
+        background-size: 500%;
+        background-position: center;
+        height: 117vh;
+    }
+    .blackx2{
+        height: 117vh;
     }
     .first, .second{
         width: 384px;
