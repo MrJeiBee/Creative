@@ -356,7 +356,7 @@ h1{
     display: flex;
     flex-direction: column;
     text-align: center;
-    border: 1px solid rgba(51, 50, 50, 0.493);
+    border: 1px solid rgba(51, 50, 50, 0.300);
 }
 .worker:hover{
     transition: 0.5s;
@@ -387,18 +387,13 @@ h1{
     display: flex;
     text-align: center;
     width: 30%;
-    border: 1px solid rgba(51, 50, 50, 0.493);
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-.skil:hover{
-    transition: 0.5s;
-    border: 1px solid black;
-}
 .skil:hover h3, .skil:hover p{
     transition: 0.5s;
-    color: red;
+    color: rgba(255, 0, 0, 0.87);
 }
 .imageofskill{
     width: 50%;
@@ -450,6 +445,13 @@ h1{
         grid-template-columns: repeat(2, 40%);
         grid-template-rows: repeat(2, 15vh);
         grid-template-areas: "a1 a2" "a3 a4";
+    }
+    .galleryofworkers{
+        flex-flow: row wrap;
+        align-items: center;
+    }
+    .skil{
+        flex-flow: row wrap;
     }
 }
 @media(max-width: 768px){
@@ -602,6 +604,20 @@ h1{
         display: flex;
         flex-direction: column;
     }
+    .galleryofworkers{
+        flex-flow: wrap row;
+    }
+    .skilsgallery{
+        flex-flow: row wrap;
+        align-items: center;
+    }
+    .textwithh2>p{
+        width: 90%;
+    }
+    .skil{
+        width: 50%;
+        height: 30vh;
+    }
 }
 @media (max-width: 425px){
     header{
@@ -639,12 +655,12 @@ h1{
         width: 99%;
     }
     .outclints{
-        background-size: 500%;
+        background-size: 525%;
         background-position: center;
-        height: 117vh;
+        height: 120vh;
     }
     .blackx2{
-        height: 117vh;
+        height: 120vh;
     }
     .img4sanya{
         width: 70%;
@@ -664,6 +680,20 @@ h1{
     }
     .a1, .a2, .a3, .a4, .a5, .a6, .a7, .a8{
         background-position: center;
+    }
+    .skilsgallery{
+        flex-direction: column;
+    }
+    .skil{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .textskill{
+        width: 100%;
+    }
+    .imageofskill{
+        width: 100%;
     }
 }
 @media (max-width: 375px){
