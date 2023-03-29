@@ -339,14 +339,89 @@ h1{
     align-content: center;
     flex-direction: column;
     flex-wrap: nowrap;
-    width: 50%;
+    width: 30%;
 }
 .img4sanya{
     width: 30%;
     height: 35vh;
     margin-top: 4%;
 }
+.galleryofworkers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4% 16%;
+}
+.worker{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid rgba(51, 50, 50, 0.493);
+}
+.worker:hover{
+    transition: 0.5s;
+    border: 1px solid black;
+}
+.worker:hover h3, .worker:hover p{
+    transition: 0.5s;
+    color: red;
+}
+.textname{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+.textname>p, .textname>h3{
+    font-weight: 400;
+}
+.skilsgallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4% 16%;
+}
+.skil{
+    display: flex;
+    text-align: center;
+    width: 30%;
+    border: 1px solid rgba(51, 50, 50, 0.493);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.skil:hover{
+    transition: 0.5s;
+    border: 1px solid black;
+}
+.skil:hover h3, .skil:hover p{
+    transition: 0.5s;
+    color: red;
+}
+.imageofskill{
+    width: 50%;
+}
+.textskill{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+.textskill>p, .textskill>h3{
+    font-weight: 400;
+}
+.textskill{
+    width: 60%;
+}
+/* .textskill>p{
+    width: 60%;
+} */
 @media(max-width: 1440px){
+    
     .black{
         height: 85vh;
     }
@@ -535,10 +610,14 @@ h1{
     }
     .buttons{
         flex-direction: column;
+        align-items: center;
     }
-
+    .buttons button{
+        height: 4vh;
+    }
     #rightform{
         margin: 0;
+        margin-top: 10%;
     }
     .g7anes{
         width: 40%;
@@ -553,6 +632,12 @@ h1{
     .thatimagethaislyingneartextwihtimage>img{
         width: 100%;
     }
+    .textwithh2>p{
+        width: 90%;
+    }
+    .portfolionavigation{
+        width: 99%;
+    }
     .outclints{
         background-size: 500%;
         background-position: center;
@@ -561,7 +646,57 @@ h1{
     .blackx2{
         height: 117vh;
     }
-    .first, .second{
-        width: 384px;
+    .img4sanya{
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #secondgig{
+        flex-direction: row-reverse;
+    }
+    .img4sanya>img{
+        width: 100%;
+    }
+    .gridimages{
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(8, 40vh);
+        grid-template-areas: "a1" "a2" "a3" "a4" "a5" "a6" "a7" "a8";
+    }
+    .a1, .a2, .a3, .a4, .a5, .a6, .a7, .a8{
+        background-position: center;
+    }
+}
+@media (max-width: 375px){
+    header{
+        background-size: 450%;
+        background-position: center;
+        height: 90vh;
+    }
+    .black, .headerInfo{
+        height: 90vh;
+    }
+    .buttons{
+        width: 70%;
+    }
+    .gigGigivich{
+        width: 90%;
+        height: 7vh;
+    }
+    .outclints{
+        background-size: 560%;
+    }
+    .gridimages{
+        grid-template-rows: repeat(8, 39vh);
+    }
+}
+@media (max-width: 320px){
+    header{
+        background-size: 500%;
+    }
+    .outclints{
+        background-size: 670%;
+    }
+    .gridimages{
+        grid-template-rows: repeat(8, 33vh);
     }
 }
